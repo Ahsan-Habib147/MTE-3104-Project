@@ -1,31 +1,37 @@
 # Traffic Control System
 
-This project implements an Arduino-based traffic control system that manages traffic lights using a round-robin approach, handles emergency traffic control, and incorporates train detection features.
+## Overview
+
+The Traffic Control System is an Arduino-based application designed to efficiently manage traffic lights at intersections. The system incorporates round-robin traffic control, emergency vehicle prioritization, and train detection functionalities. It ensures a smooth flow of traffic while prioritizing safety and quick response for emergency vehicles and trains. This project serves as a solid foundation for developing more advanced traffic management systems.
 
 ## Features
 
-### 1. Round Robin Traffic Control
-- The system controls four sets of traffic lights in a round-robin manner.
-- Each traffic light is green for a fixed interval, allowing smooth traffic flow.
-- The interval can be adjusted as needed for specific traffic conditions.
+- **Round Robin Traffic Control**: Automatically manages four sets of traffic lights, cycling through them in a round-robin manner for efficient traffic flow.
+- **Emergency Traffic Control**: Detects emergency vehicles using RFID tags, turning all traffic lights red and granting priority to the emergency vehicle.
+- **Train Detection Traffic Control**: Utilizes an IR sensor to detect approaching trains, turning all traffic lights red to ensure safety at intersections.
 
-### 2. Emergency Traffic Control
-- The system prioritizes emergency vehicles by detecting specific RFID tags.
-- When an emergency vehicle is detected, the current traffic lights turn red while the corresponding traffic light for the emergency vehicle turns green.
-- This feature ensures that emergency vehicles can pass through intersections without delay.
+## Installation
 
-### 3. Train Detection Traffic Control
-- The system incorporates an IR sensor to detect approaching trains.
-- When a train is detected, all traffic lights immediately turn red to ensure safety.
-- Once the train passes, the system activates the yellow light to prepare vehicles for a green light, maintaining a safe traffic flow.
+1. Clone the repository using the following command: git clone https://github.com/Ahsan-Habib147/traffic-control-system.git
 
-## Getting Started
+2. Open the project in the Arduino IDE.
 
-### Prerequisites
-- Arduino IDE
-- Arduino board (e.g., Arduino Uno)
-- Servo motors
-- IR sensor
-- Traffic light LEDs
-- RFID module (for emergency vehicle detection)
+3. Connect the hardware components according to the pin configuration provided in the code.
 
+4. Upload the code to your Arduino board.
+
+## Usage
+
+1. Power on the system to start the traffic control functionalities.
+2. The system will automatically manage traffic lights based on the implemented logic.
+3. Emergency vehicle detection and train detection features will operate without user intervention.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your suggested changes.
+
+## Contact
+
+For any inquiries or issues, please contact us at [ahsan.2008032.ruet.mte@gmail.com](mailto:ahsan.2008032.ruet.mte@gmail.com).
+
+**Thank you for using the Traffic Control System!**
