@@ -1,4 +1,4 @@
-# Traffic Control System
+**Traffic Control System**
 
 ## Overview
 
@@ -12,8 +12,7 @@ The Traffic Control System is an Arduino-based application designed to efficient
 
 ## Installation
 
-1. Clone the repository using the following command: 
-
+1. Clone the repository using the following command:
 git clone https://github.com/Ahsan-Habib147/traffic-control-system.git
 
 2. Open the project in the Arduino IDE.
